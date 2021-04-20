@@ -6,7 +6,7 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === 'p+wara') { 
+if (message.content === '!wara') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
@@ -36,9 +36,9 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/EXCuvNd`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/2CMJh2MrgR`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("755636700482633791").send(
+  client.channels.get("802096566646210603").send(
 `> <:ARBELE_UPUP:791411050238836766> By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
@@ -51,10 +51,10 @@ ${message.content}`)
 client.on('ready', () => {
 console.log(`ON ${client.guilds.size} Servers`);
 console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`ڕیکلامەکە بنێرە بۆمن دایدەنێم☑️`) 
+client.user.setGame(`PANTHER TEAM ڕیکلامەکە بنێرە بۆمن دایدەنێم☑️`) 
 });
 
 
 
 
-client.login("");//تۆکین لێرە دانێ
+client.login("ODM0MDI1NDg2MjEyNTMwMTc2.YH64ww.u__flCqX6Au91U663_c9tLP-Xvg");//تۆکین لێرە دانێ
